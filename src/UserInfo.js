@@ -17,7 +17,6 @@ class UserInfo extends React.Component{
         )
     }
 
-
     render(){
         if(this.state.loading){ return <span>loading...</span>}
         else if(this.state.error !== null){

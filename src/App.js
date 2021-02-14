@@ -34,6 +34,7 @@ class App extends React.Component {
       return (user!==givenUser)
     });
     this.setState({ usersArr : tmpArr });
+    this.clearInput(e);
   }
 
   render(){
